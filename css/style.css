@@ -127,3 +127,35 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+ /*Mediaquery section LESSONS*/
+
+ @media screen and (max-width:480px){
+    .container {
+        width: 100%;
+    }
+    .row {
+        flex-wrap: wrap;
+    }
+    .lessons .col {
+        width: 100%;
+        padding: 40px 0 30px;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    .lessons .text {
+        width: 370px;
+        margin: auto;
+        font-size: 18px;
+    }
+    .lessons .col img {
+        height: 250px;
+    }
+ }
